@@ -1,0 +1,225 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    direction: ltr;
+}
+
+html {box-sizing: border-box;} 
+ 
+*, *:before, *:after {box-sizing: inherit;}
+
+
+header{
+    background: rgb(71, 110, 229);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+header h1 a{
+    display: inline-block;
+    border-bottom: 2px solid #fc4364;
+    border-radius: 15px;
+    width: 30%;
+    margin: auto;
+    transition: all 3s;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+header h1 a:hover{
+    letter-spacing: 5px;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 15px;
+    direction: ltr;
+}
+
+header nav ul li{
+    margin: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    background: #fc4364;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.9s;
+}
+
+.about, .customer{
+    width: 96%;
+    padding: 15px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0 5px 30px 0 rgb(0 0 0 / 25%);
+}
+
+.about h1, .solution h1, .location h1, .customer h1{
+    width: 200px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+    background: rgb(66, 133, 244);
+    text-align: center;
+    color: white;
+}
+
+.flex{
+    width: 97%;
+    display: flex;
+    margin: 15px auto;
+    direction: ltr;
+}
+
+.flex-col{
+    width: 97%;
+    display: flex;
+    flex-direction: column;
+    margin: 15px auto;
+    direction: ltr;
+}
+
+.flex article{
+    margin: 5px;
+    width: 49%;
+    text-align: center;
+}
+
+.right img{
+    width: 200px;
+    height: 205px;
+    border-radius: 50%;
+    border-top: 2px solid red;
+    border-right: 2px solid gold;
+}
+
+
+.left h2{
+    margin-bottom: 20px;
+    color: #fc4364;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.left p{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.social{
+    direction: ltr;
+    margin-top: 30px;
+}
+
+.facebook, .gmail, .youtube{
+    background: #4169e1;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: 15px;
+    width: 120px;
+}
+
+.gmail{
+    background: white;
+    padding: 3px;
+    color: black;
+    border-top: 2px solid rgb(66, 133, 244);
+    border-right: 2px solid rgb(234, 67, 53);
+    border-bottom: 2px solid rgb(251, 188, 4);
+    border-left: 2px solid rgb(52, 168, 83);
+}
+
+.youtube{
+    background: rgb(179, 56, 44);
+}
+
+.facebook:hover, .gmail:hover, .youtube:hover{
+    font-size: 22px;
+    transition: all 0.9s;
+}
+
+.customer img{
+    width: 200px;
+    height: 100px;
+    transition: all 2s; 
+}
+
+.customer img:hover{
+    width: 300px;
+    height: 200px;
+    cursor: pointer;
+
+}
+
+footer{
+    width: 97%;
+    margin: auto;
+    padding-top: 40px;
+}
+
+footer div{
+    text-align: center;
+    border-top: 5px solid #3d4a59;
+    border-radius: 10px;
+}
+
+footer h1{
+    border-bottom: 2px solid rgb(247, 99, 12);
+    width: 30%;
+    margin: auto;
+    border-radius: 15px;
+}
+
+footer div ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+footer div ul li{
+    color: black;
+}
+
+footer div ul li a{
+    color: blue;
+}
+
+footer p{
+    margin-top: 50px; 
+    background: rgb(71, 110, 229);
+    text-align: center;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer p a{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+footer p a:hover{
+    background: #fc4364;
+    border: none;
+    transition: all 0.9s;
+}
